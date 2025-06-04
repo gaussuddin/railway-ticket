@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from telegram import Bot
 
 # === Bot Setup ===
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
-CHAT_ID = 'YOUR_CHAT_ID'
+BOT_TOKEN = '8024752062:AAE_5osLpnByViFzJgJntAlmGo9b20cdvB4'
+CHAT_ID = '5247051269'
 bot = Bot(token=BOT_TOKEN)
 
 # === Editable Section ===
