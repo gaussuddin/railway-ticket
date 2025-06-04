@@ -82,7 +82,7 @@ async def main_loop():
         for from_city, to_city in ROUTES:
             for date in DATES:
                 await check_tickets(from_city, to_city, date)
-        await asyncio.sleep(60)
+        await asyncio.sleep(41)
 
 if __name__ == "__main__":
     asyncio.run(main_loop())
