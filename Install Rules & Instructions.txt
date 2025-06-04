@@ -1,0 +1,23 @@
+# === Bot Setup ===
+BOT_TOKEN = '8024752062:AAE_5osLpnByViFzJgJntAlmGo9b20cdvB4'
+CHAT_ID = '-1002285762730'
+bot = Bot(token=BOT_TOKEN)
+
+BOT Token দেয়াই আছে। chat id এর ঘরে যে গ্রুপে বা চ্যাটে মেসেজ যাবে সেই গ্রুপ চ্যাটের আইডি দিতে হবে। group id এর প্রথমে "-" হয়। আইডি বের করার জন্য এআই কে বললেই বলে দিবে।
+
+# === Editable Section ===
+ROUTES = [
+    ("Dhaka", "Rajshahi"),
+    ("Biman_Bandar", "Rajshahi"),
+    ("Dhaka", "Chapainawabganj")
+]
+
+DATES = ["05-Jun-2025", "06-Jun-2025"]
+TRAVEL_CLASS = "S_CHAIR"
+
+উপরের এই ফরম্যাট মেনে রুট ও তারিখ সিলেক্ট করে দিতে হবে। 
+
+এছাড়া আর কিছু চেঞ্জ করার প্রয়োজন নেই কোডে। 
+
+Code Deploy করার জন্য railway.app/ railway.com সাইটে github connect করে নতুন প্রজেক্ট তৈরি করে রিপোজিটরি সিলেক্ট করে ডিপ্লয় করতে হবে। তাহলেই অটো চালু হয়ে যাবে।
+railway.app/ railway.com এ ৫ ডলার প্রতি মাসের প্যাক আছে। ১ম মাসের জন্য ৫ ডলার ফ্রী। এর পর বন্ধ হয়ে যায় কিনা জানা নেই, চেক করা হয় নি এখনো।
