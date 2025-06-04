@@ -8,7 +8,7 @@ from telegram import Bot
 
 # === Bot Setup ===
 BOT_TOKEN = '8024752062:AAE_5osLpnByViFzJgJntAlmGo9b20cdvB4'
-CHAT_ID = '5247051269'
+CHAT_ID = '-1002285762730'
 bot = Bot(token=BOT_TOKEN)
 
 # === Editable Section ===
