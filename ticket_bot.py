@@ -13,9 +13,9 @@ bot = Bot(token=BOT_TOKEN)
 
 # === Editable Section ===
 ROUTES = [
-    ("Dhaka", "Rajshahi"),
-    ("Biman_Bandar", "Rajshahi"),
-    ("Dhaka", "Chapainawabganj")
+    ("Rajshahi", "Dhaka"),
+    ("Rajshahi", "Biman_Bandar"),
+    ("Chapainawabganj", "Dhaka")
 ]
 
 DATES = ["04-Jun-2025", "05-Jun-2025"]
