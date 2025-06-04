@@ -13,11 +13,12 @@ bot = Bot(token=BOT_TOKEN)
 
 # === Editable Section ===
 ROUTES = [
-    ("Rajshahi", "Dhaka"),
-    ("Chapainawabganj", "Dhaka")
+    ("Dhaka", "Rajshahi"),
+    ("Biman_Bandar", "Rajshahi"),
+    ("Dhaka", "Chapainawabganj")
 ]
 
-DATES = ["05-Jun-2025", "06-Jun-2025"]
+DATES = ["04-Jun-2025", "05-Jun-2025"]
 TRAVEL_CLASS = "S_CHAIR"
 
 # === Do Not Edit Below This Line ===
