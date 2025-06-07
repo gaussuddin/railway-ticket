@@ -15,7 +15,7 @@ bot = Bot(token=BOT_TOKEN)
 ROUTES = [
     ("Dhaka", "Rajshahi"),
     ("Biman_Bandar", "Rajshahi"),
-    ("Dhaka", "Chapai Nawabganj")
+    ("Dhaka", "Chapainawabganj")
 ]
 
 DATES = ["08-Jun-2025", "09-Jun-2025"]
