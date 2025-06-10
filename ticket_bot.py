@@ -17,7 +17,7 @@ ROUTES = [
     ("Chapainawabganj", "Dhaka")
 ]
 
-DATES = ["11-Jun-2025", "12-Jun-2025"]
+DATES = ["12-Jun-2025", "13-Jun-2025", "14-Jun-2025"]
 TRAVEL_CLASS = "S_CHAIR"
 
 # === Do Not Edit Below This Line ===
