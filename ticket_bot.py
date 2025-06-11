@@ -13,7 +13,7 @@ bot = Bot(token=BOT_TOKEN)
 
 # === Editable Section ===
 ROUTES = [
-    ("Chattogram", "Dhaka"), 
+("Chattogram", "Dhaka"),
 ("Cox's Bazar", "Dhaka")
 ]
 
